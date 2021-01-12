@@ -1,0 +1,95 @@
+#map {
+   height: 400px;  /* The height is 400 pixels */
+   width: 50vw;  /* The width is the width of the web page */
+}
+
+.flex, .flex-not-mobile {
+  display: flex;
+}
+
+.lSSlideOuter .lSPager.lSpg {
+   margin-top: -30px !important;
+}
+
+.home-nav {
+  background: #222;
+  padding: 8px 16px;
+}
+
+.home-nav a,
+.home_carousel a {
+  border-bottom: none;
+}
+
+.home-nav .grow {
+  flex-grow: 1;
+}
+
+#contacto a {
+  text-decoration: underline;
+}
+
+#contacto strong {
+  color: #222;
+}
+
+ul.info li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.info a {
+  text-decoration: none;
+}
+
+ul.info a .fa {
+  width: 24px;
+}
+
+.home_carousel .hero {
+  height: calc(100vh - 76px);
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+  flex-direction: column;
+}
+
+.home_carousel .hero .content {
+  margin-top: 0;
+}
+
+.home_carousel .button.special {
+  background-color: #F87060; 
+  color: #FAFAFA !important;
+}
+
+.info-contacto {
+  padding-right: 2em;
+}
+
+#footer .menu li {
+  color: #777;
+}
+
+@media screen and (max-width: 480px) {
+  .flex-not-mobile {
+    display: block;
+  }
+  .home_carousel .hero {
+    height: calc(100vh - 122px);
+  }
+  .home_carousel .hero h1.title {
+    font-size: 1.2em;
+  }
+  .home_carousel .hero h3.slogan {
+    font-size: 1em;
+  }
+
+  .home-nav a {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #map {
+    width: 100%;
+  }
+}
