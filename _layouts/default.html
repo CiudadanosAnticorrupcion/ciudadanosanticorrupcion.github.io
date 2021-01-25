@@ -85,11 +85,11 @@
       <script src="/assets/js/lightslider.min.js"></script>
       <script>
        function initMap() {
-           var sea = {lat: 19.049150, lng: -98.203503};
+           var sea = {lat: 19.047992435816038, lng: -98.23421759416699};
            var map = new google.maps.Map(
-               document.getElementById('map'), {zoom: 18, center: sea});
+               document.getElementById('map'), {zoom: 16, center: sea, mapTypeControl: false});
            var marker = new google.maps.Marker({position: sea, map: map});
-           var contentString = '<h2 style="color: 333">Sistema Estatal Anticorrupción</h2><p>Calle 4 Poniente 719, C.P. 72090<br>Colonia, Centro Histórico</p>'
+           var contentString = '<h2 style="color: 333">Sistema Estatal Anticorrupción</h2><p>Calle 39 Pte. 3525-Piso 5,<br>Col. Las Ánimas, 72400 Puebla, Pue.</p>'
            var infowindow = new google.maps.InfoWindow({
                content: contentString
            });
